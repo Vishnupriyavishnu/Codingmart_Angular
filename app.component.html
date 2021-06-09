@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+<title>note</title>
+<link href="https://fonts.googleleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"rel="stylesheet">
+</head>
+<style>
+   body{
+ margin:0;
+padding:0;
+text-align:center;
+background-color:teal;
+background-size:cover ;
+color:white;
+font-size:19px;
+font-weight:bold;
+}
+h1{
+ text-align:center;
+ color:white;
+ background:rgba(0,0,0,0.1);
+ padding:10px;
+}
+.register{
+  margin:auto;
+  width:50%;
+  background:rgba(0,0,0,.1);
+  border:2px solid white;
+  padding:10px;
+}
+.hlo:hover{
+ box-shadow:0 10px 20px;
+ background:linear-gradient(white,grey);
+}
+
+.hlo{
+ width:40%;
+ padding:8px;
+ border-radius:10px;
+ font-size:18px;
+ font-family:serif;
+ background:rgb(61, 214, 176);
+}
+
+#sub{
+width:150px;
+padding:5px;
+text-align:center;
+font-family:serif;
+font-size:18px;
+border:1px solid white;
+outline:0;
+border-radius:5px;
+color:white;
+background:none;
+}
+#sub:hover{
+background:darkblue;
+}
+input[type="radio"]
+{
+   position:relative;
+   background:greenyellow;
+   
+}
+
+</style>
+<body>
+   <h1>TamilNadu Statistics Form</h1>
+    <div class="register">
+      <form>
+        
+         District Name:<input type="text" class="hlo" placeholder="Name" minlength="3" maxlength="15" name="username" id="name"><br><br>
+         Area(sq mt)&nbsp;&nbsp;:<input type="number" class="hlo" placeholder="Area " name="Area" id="roll" ><br><br>
+         Population&nbsp;&nbsp;&nbsp;&nbsp;:<input type="text" class="hlo" placeholder="Population " name="p" id="pop" ><br><br>
+
+         <input type="submit"  value="SAVE" id="sub"><br><br><br>
+
+
+         <fieldset><b text-align:left>Biggest District(Area wise)</b>
+            <br>
+            <br>
+          <input type="radio" name="place" id="rd1" class="radio_ _input">Chennai 
+         <input type="radio" name="place" id="rd2" class="radio_ _input">Coimbatore
+         <input type="radio" name="place" id="rd3" class="radio_ _input">Salem <br><br>
+         </fieldset><br> 
+            
+         <fieldset><b text-align:left>Highly populated District</b>
+            <br><br>
+          <input type="radio" name="place1" id="rd1" class="radio_ _input">Chennai 
+         <input type="radio" name="place1" id="rd2"class="radio_ _input">Coimbatore 
+         <input type="radio" name="place1" id="rd3"class="radio_ _input">Salem <br><br>
+         </fieldset>
+         
+        
+        
+        
+        
+      </form>
+    </div>
+</body>
